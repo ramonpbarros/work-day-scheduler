@@ -1,22 +1,40 @@
 //display time and date at the top of page
 $(function () {
+    var hr9 = 5
+    var hr10 = 6
+    var hr11 = 7
+    var hr12 = 8
+    var hr13 = 9
+    var hr14 = 10;
+    var hr15 = 11;
+    var hr16 = 12;
+    var hr17 = 13;
 
     var todaysDate = moment().format("dddd, MMMM Do");
     $("#currentDay").text(todaysDate);
 
     //compare to the variable moment.js
     //convert current moment.js to hr block
-    var currentHour = moment().format('LT');
-    if ($(".time-block" < currentHour)) {
+    var currentHour = parseInt(moment().format('LT'));
+    
+    if(hr9 < currentHour){
+        $("#hour-9").addClass("past");
+    } else if(hr9 === currentHour) {
+        $("#hour-9").addClass("present");
+    }else if (hr9 > currentHour) {
+        $("#hour-9").addClass("future");
+    }
+    if (hr14 > currentHour) {
         //time block is grey if its past
-        $(".time-block").addClass("past");
-    } else if ($(".time-block" == currentHour)) {
-        //time black is red if its current
-        $(".time-block").addClass("present");
-    } else {
-        //time block is green if its future
-        $(".time-block").addClass("future");
-    };
+        $("#hour-14").addClass("future");
+    } 
+    // else if ($(".time-block" == currentHour)) {
+    //     //time black is red if its current
+    //     $(".time-block").addClass("present");
+    // } else if ($(".time-block" > currentHour)){
+    //     //time block is green if its future
+    //     $(".time-block").addClass("future");
+    // };
     // when user clicks on save button then saves to local storage
     $("#saveBtn9").on("click", function () {
         var descriptionText = $("#description9").val();
