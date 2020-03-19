@@ -1,10 +1,10 @@
 //display time and date at the top of page
 $(function () {
-    var hr9 = 5
-    var hr10 = 6
-    var hr11 = 7
-    var hr12 = 8
-    var hr13 = 9
+    var hr9 = 5;
+    var hr10 = 6;
+    var hr11 = 7;
+    var hr12 = 8;
+    var hr13 = 9;
     var hr14 = 10;
     var hr15 = 11;
     var hr16 = 12;
