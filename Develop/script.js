@@ -1,14 +1,14 @@
 //display time and date at the top of page
 $(function () {
-    var hr9 = 5;
-    var hr10 = 6;
-    var hr11 = 7;
-    var hr12 = 8;
-    var hr13 = 9;
-    var hr14 = 10;
-    var hr15 = 11;
-    var hr16 = 12;
-    var hr17 = 13;
+    var hr9 = 9;
+    var hr10 = 10;
+    var hr11 = 11;
+    var hr12 = 12;
+    var hr13 = 1;
+    var hr14 = 2;
+    var hr15 = 3;
+    var hr16 = 4;
+    var hr17 = 5;
 
     var todaysDate = moment().format("dddd, MMMM Do");
     $("#currentDay").text(todaysDate);
@@ -16,6 +16,7 @@ $(function () {
     //compare to the variable moment.js
     //convert current moment.js to hr block
     var currentHour = parseInt(moment().format('LT'));
+    console.log(currentHour);
     
     if(hr9 < currentHour){
         //time block is grey if its past
