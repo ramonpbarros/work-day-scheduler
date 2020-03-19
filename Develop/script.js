@@ -50,28 +50,44 @@ $(function () {
     $("#description12").text(descriptionInput4);
 
 
-    $("#saveBtn10").on("click", function () {
-        var descriptionText2 = $("#description10").val();
-        localStorage.setItem("descriptionText2", JSON.stringify(descriptionText2));
+    $("#saveBtn1").on("click", function () {
+        var descriptionText5 = $("#description1").val();
+        localStorage.setItem("descriptionText5", JSON.stringify(descriptionText5));
     });
-    var descriptionInput2 = JSON.parse(localStorage.getItem("descriptionText2"));
-    $("#description10").text(descriptionInput2);
+    var descriptionInput5 = JSON.parse(localStorage.getItem("descriptionText5"));
+    $("#description1").text(descriptionInput5);
 
 
-    $("#saveBtn10").on("click", function () {
-        var descriptionText2 = $("#description10").val();
-        localStorage.setItem("descriptionText2", JSON.stringify(descriptionText2));
+    $("#saveBtn2").on("click", function () {
+        var descriptionText6 = $("#description2").val();
+        localStorage.setItem("descriptionText6", JSON.stringify(descriptionText6));
     });
-    var descriptionInput2 = JSON.parse(localStorage.getItem("descriptionText2"));
-    $("#description10").text(descriptionInput2);
+    var descriptionInput6 = JSON.parse(localStorage.getItem("descriptionText6"));
+    $("#description2").text(descriptionInput6);
 
 
-    $("#saveBtn10").on("click", function () {
-        var descriptionText2 = $("#description10").val();
-        localStorage.setItem("descriptionText2", JSON.stringify(descriptionText2));
+    $("#saveBtn3").on("click", function () {
+        var descriptionText7 = $("#description3").val();
+        localStorage.setItem("descriptionText7", JSON.stringify(descriptionText7));
     });
-    var descriptionInput2 = JSON.parse(localStorage.getItem("descriptionText2"));
-    $("#description10").text(descriptionInput2);
+    var descriptionInput7 = JSON.parse(localStorage.getItem("descriptionText7"));
+    $("#description3").text(descriptionInput7);
+
+
+    $("#saveBtn4").on("click", function () {
+        var descriptionText8 = $("#description4").val();
+        localStorage.setItem("descriptionText8", JSON.stringify(descriptionText8));
+    });
+    var descriptionInput8 = JSON.parse(localStorage.getItem("descriptionText8"));
+    $("#description4").text(descriptionInput8);
+
+
+    $("#saveBtn5").on("click", function () {
+        var descriptionText9 = $("#description5").val();
+        localStorage.setItem("descriptionText9", JSON.stringify(descriptionText9));
+    });
+    var descriptionInput9 = JSON.parse(localStorage.getItem("descriptionText9"));
+    $("#description5").text(descriptionInput9);
 
 
     // when they refresh page then todo list is still saved
