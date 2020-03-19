@@ -18,23 +18,80 @@ $(function () {
     var currentHour = parseInt(moment().format('LT'));
     
     if(hr9 < currentHour){
+        //time block is grey if its past
         $("#hour-9").addClass("past");
-    } else if(hr9 === currentHour) {
+    }else if(hr9 === currentHour) {
+        //time black is red if its current
         $("#hour-9").addClass("present");
     }else if (hr9 > currentHour) {
+        //time block is green if its future
         $("#hour-9").addClass("future");
     }
-    if (hr14 > currentHour) {
-        //time block is grey if its past
+    
+    if (hr10 < currentHour) {
+        $("#hour-10").addClass("past");
+    }else if(hr10 === currentHour) {
+        $("#hour-10").addClass("present");
+    }else if (hr10 > currentHour) {
+        $("#hour-10").addClass("future");
+    }
+
+    if (hr11 < currentHour) {
+        $("#hour-11").addClass("past");
+    }else if(hr11 === currentHour) {
+        $("#hour-11").addClass("present");
+    }else if (hr11 > currentHour) {
+        $("#hour-11").addClass("future");
+    }
+
+    if (hr12 < currentHour) {
+        $("#hour-12").addClass("past");
+    }else if(hr12 === currentHour) {
+        $("#hour-12").addClass("present");
+    }else if (hr12 > currentHour) {
+        $("#hour-12").addClass("future");
+    }
+
+    if (hr13 < currentHour) {
+        $("#hour-13").addClass("past");
+    }else if(hr13 === currentHour) {
+        $("#hour-13").addClass("present");
+    }else if (hr13 > currentHour) {
+        $("#hour-13").addClass("future");
+    }
+
+    if (hr14 < currentHour) {
+        $("#hour-14").addClass("past");
+    }else if(hr14 === currentHour) {
+        $("#hour-14").addClass("present");
+    }else if (hr14 > currentHour) {
         $("#hour-14").addClass("future");
-    } 
-    // else if ($(".time-block" == currentHour)) {
-    //     //time black is red if its current
-    //     $(".time-block").addClass("present");
-    // } else if ($(".time-block" > currentHour)){
-    //     //time block is green if its future
-    //     $(".time-block").addClass("future");
-    // };
+    }
+
+    if (hr15 < currentHour) {
+        $("#hour-15").addClass("past");
+    }else if(hr15 === currentHour) {
+        $("#hour-15").addClass("present");
+    }else if (hr15 > currentHour) {
+        $("#hour-15").addClass("future");
+    }
+
+    if (hr16 < currentHour) {
+        $("#hour-16").addClass("past");
+    }else if(hr16 === currentHour) {
+        $("#hour-16").addClass("present");
+    }else if (hr16 > currentHour) {
+        $("#hour-16").addClass("future");
+    }
+
+    if (hr17 < currentHour) {
+        $("#hour-17").addClass("past");
+    }else if(hr17 === currentHour) {
+        $("#hour-17").addClass("present");
+    }else if (hr17 > currentHour) {
+        $("#hour-17").addClass("future");
+    }
+
     // when user clicks on save button then saves to local storage
     $("#saveBtn9").on("click", function () {
         var descriptionText = $("#description9").val();
@@ -107,7 +164,4 @@ $(function () {
     var descriptionInput9 = JSON.parse(localStorage.getItem("descriptionText9"));
     $("#description5").text(descriptionInput9);
 
-
-    // when they refresh page then todo list is still saved
-    // (get from local storage)
 });
