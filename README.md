@@ -1,5 +1,5 @@
 # Daily Scheduler
-> Here goes your awesome project description!
+> Simple calendar application that allows the user to save events for each hour of the day.
 
 ## Table of contents
 * [General info](#general-info)
@@ -12,18 +12,22 @@
 * [Contact](#contact)
 
 ## General info
-Add more general information about project. What the purpose of the project is? Motivation?
+This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
 ## Screenshots
 ![Example screenshot](./Assets/demo.gif)
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* jQuery
+* Moment.js API
+* JavaScript
+* HTML5
+* CSS
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+This application runs in the browser. Nothing needs to be installed except for your default browser.
+
+* Repository can be found here: GitHub/ramonpbarros Make sure to git clone and check out the code!
 
 ## Code Examples
 Show examples of usage:
