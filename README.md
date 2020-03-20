@@ -31,7 +31,7 @@ This application runs in the browser. Nothing needs to be installed except for y
 
 ## Code Examples
 Show examples of usage:
-`put-your-code-here`
+`$(".saveBtn").on("click", function () { var descriptionText = $(this).siblings(".description").val(); var parentId = $(this).parent().attr("id"); localStorage.setItem(parentId, descriptionText); });`
 
 ## Features
 List of features ready and TODOs for future development
@@ -40,11 +40,11 @@ List of features ready and TODOs for future development
 * Awesome feature 3
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Add delete button
+* Clear localStorage on the next day
 
 ## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+Project is: _in progress_
 
 ## Inspiration
 Add here credits. Project inspired by..., based on...
