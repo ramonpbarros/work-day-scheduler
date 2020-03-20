@@ -27,7 +27,7 @@ This app will run in the browser and feature dynamically updated HTML and CSS po
 ## Setup
 This application runs in the browser. Nothing needs to be installed except for your default browser.
 
-* Repository can be found here: [GitHub/ramonpbarros]() Make sure to git clone and check out the code!
+* Repository can be found here: [GitHub/ramonpbarros](https://github.com/ramonpbarros/work-day-scheduler) Make sure to git clone and check out the code!
 
 ## Code Examples
 Show examples of usage:
@@ -45,7 +45,7 @@ To-do list:
 
 ## Status
 Project is: _in progress_
-* Make sure to check the application [here]()
+* Make sure to check the application [here](https://ramonpbarros.github.io/work-day-scheduler/)
 
 ## Inspiration
 Project inspired by UCSD Coding Bootcamp, based on firt month of course, ultilizing Moment.js API and applying jQuery skills.
