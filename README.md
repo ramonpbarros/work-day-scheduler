@@ -39,12 +39,12 @@ List of features:
 * Displays the current day, month, and date on the top of the page.
 
 To-do list:
-* Add delete button
-* Clear localStorage on the next day
+* Add delete button.
+* Clear localStorage on the next day.
 
 ## Status
 Project is: _in progress_
-* Make sure to check the application [here](https://ramonpbarros.github.io/work-day-scheduler/)
+* Make sure to check the application [here](https://ramonpbarros.github.io/work-day-scheduler/).
 
 ## Inspiration
 Project inspired by UCSD Coding Bootcamp, based on firt month of course, ultilizing Moment.js API and applying jQuery skills.
