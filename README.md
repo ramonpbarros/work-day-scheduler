@@ -30,7 +30,6 @@ This application runs in the browser. Nothing needs to be installed except for y
 * Repository can be found here: [GitHub/ramonpbarros](https://github.com/ramonpbarros/work-day-scheduler) Make sure to git clone and check out the code!
 
 ## Code Examples
-Show examples of usage:
 `$(".saveBtn").on("click", function () { var descriptionText = $(this).siblings(".description").val(); var parentId = $(this).parent().attr("id"); localStorage.setItem(parentId, descriptionText); });`
 
 ## Features
